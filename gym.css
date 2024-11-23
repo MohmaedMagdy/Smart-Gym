@@ -1,0 +1,75 @@
+.back-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+
+.icon{
+    margin-left: 70pc;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+}
+.navbar-custom {
+    width: 85%;
+    margin: auto;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-custom ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar-custom ul li a {
+    text-decoration: none;
+    color: rgb(253, 249, 249);
+    padding: 8px 25px;
+    transition: all 0.5s ease;
+}
+.navbar-custom ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(255, 253, 253), 0 0 10px white, 0 0 15px white;
+}
+.back-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.btn-custom {
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    outline: none;
+    transition: 0.6s ease;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.btn-custom:hover {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px white, 0 0 15px white;
+    transform: scale(1.04);
+}

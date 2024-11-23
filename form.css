@@ -1,0 +1,21 @@
+body{
+    /* background-color: rgb(98, 196, 172); */
+    background-image: url("https://i0.wp.com/goldsgym.in/wp-content/uploads/2023/12/compress-strong-man-training-gym-min-scaled.jpg?resize=2048%2C1366&ssl=1");
+    background-repeat:inherit;
+    background-size: cover;
+    height: 50vmax;
+
+}
+
+.login{
+    border: 1px ;
+    width: 450px;
+    height: 450px;
+    margin-left: 22pc;
+    margin-top: 1pc;
+}
+.login img{
+    margin-top: 1pc;
+    margin-right: 20pc;
+}
+    
